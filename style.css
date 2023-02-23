@@ -1,0 +1,40 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.gallery-item {
+  width: 240px;
+  height: 320px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+.highlight {
+  border: 2px solid rgba(188, 188, 186, 0.486);
+}
